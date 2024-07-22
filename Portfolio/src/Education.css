@@ -1,0 +1,50 @@
+.education-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px;
+}
+.edu{
+  padding: 40px;
+}
+.nit{
+  box-sizing: border-box;
+  width: 600px;
+  height: 500px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 3px 4px 5px 6px #A9A9A9;
+  border-radius: 10px;
+  padding: 30px;
+}
+.it-heading{
+  margin-top: 0px;
+  font-size: 18px;
+  color: #8b8989;
+  font-weight: normal;
+}
+.img-heading{
+  display: flex;
+  justify-content: space-between;
+}
+.nit-img{
+  height: 50px;
+  width: 50px;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+.para-info{
+  font-size: 20px;
+  font-weight: normal;
+}
+.school-img{
+  height: 60px;
+  width: 60px;
+  margin-top: 25px;
+}
+.grade-heading{
+  margin-top: 20px;
+  font-size: 18px;
+  color: #8b8989;
+  font-weight: normal;
+}

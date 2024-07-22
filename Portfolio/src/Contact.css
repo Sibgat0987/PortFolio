@@ -1,0 +1,54 @@
+.contact-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.contact-box{
+  width: 600px;
+}
+
+.input-box,.message-input-box{
+  display: block;
+  padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+}
+.message-input-box{
+  height: auto; /* Allow height to adjust based on content */
+  min-height: 100px; /* Set a minimum height */
+  resize: vertical; /* Allow vertical resizing */
+  overflow: auto; /* Ensure content is scrollable if it exceeds the height */  
+}
+.input-box:focus
+ {
+  box-shadow: 0 3px 10px #110305;
+
+    border-color: #110305;
+    outline: none;
+}
+.message-input-box:focus
+ {
+    border-color: #110305;
+    box-shadow: 0 3px 10px #110305;
+    outline: none;
+
+}
+.message-button{
+  margin-top: 22px;
+height: 45px;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 0px;
+  background-color:rgb(64, 224, 208);
+  border-radius: 22px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+}

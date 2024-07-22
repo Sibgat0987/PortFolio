@@ -1,0 +1,118 @@
+p {
+  font-size: 20px;
+  font-weight: bold;
+}
+#skills{
+  padding: 40px;
+}
+.container {
+  border-radius: 20px;
+  padding: 0px;
+  height: 20px;
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  height: 20px;
+  border-radius: 20px;
+  text-align: right;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: white;
+}
+
+.html {
+  width: 90%;
+  background-color: #04AA6D;
+}
+
+.css {
+  width: 80%;
+  background-color: #2196F3;
+}
+
+.js {
+  width: 65%;
+  background-color: #f44336;
+}
+
+.ReactJs {
+  width: 80%;
+  background-color: #68297f;
+}
+
+.nodeJs {
+  width: 90%;
+  background-color: #757e24;
+}
+
+.tailwindCss {
+  width: 60%;
+  background-color: #036035;
+}
+
+.c {
+  width: 70%;
+  background-color: #e71ef5;
+}
+
+.Cplus {
+  width: 80%;
+  background-color: #df2b17;
+}
+
+.MySql {
+  width: 90%;
+  background-color: #03605a;
+}
+
+.SqlLite {
+  width: 90%;
+  background-color: #0e7315;
+}
+
+.python {
+  width: 70%;
+  background-color: #394d3a;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.frontend-container, .backend-container {
+  width: 50%; 
+  align-content: center;
+  padding: 50px;/* Adjust as needed */
+}
+.tools-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20vh; /* Full height of the viewport to center vertically */
+}
+.tools-heading{
+  text-align: center;
+}
+.tools-box {
+  align-items: center;
+  box-sizing: border-box;
+  width: 500px;
+  height: 100px;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 3px 4px 5px 6px #A9A9A9;
+  border-radius: 10px;
+  padding: 20px;
+}
+.tools{
+  font-size: 20px;
+  font-weight: bold;
+}
+.github-img{
+  height: 40px;
+}

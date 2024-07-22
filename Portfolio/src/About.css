@@ -1,0 +1,57 @@
+.cont{
+  padding-top: 10px;
+}
+.about-container{
+  text-align: center;
+margin-top: 100px;
+font-size: 25px;
+
+}
+.heading-cont{
+margin-top: 250px;
+ 
+}
+.prof-pic{
+  height: 600px;
+margin-top: 100px;
+margin-right: 20px;
+}
+.cont-one{
+  top: 160px;
+
+  display: flex;
+}
+.span-text,.typewri-heading{
+  color: rgb(62, 205, 205);
+}
+.typewri-heading{
+  font-weight: bold;
+  font-size: 50px;
+}
+.hello-heading{
+font-weight: bold;
+font-size: 70px;
+}
+.connect-heading{
+  font-weight: bold;
+font-size: 30px;
+margin-bottom: 0px;
+}
+.btn-wrap{
+  text-align: center;
+}
+  
+.resume-btn{
+  margin-top: 22px;
+height: 45px;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 0px;
+  background-color:rgb(64, 224, 208);
+  border-radius: 22px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+}
