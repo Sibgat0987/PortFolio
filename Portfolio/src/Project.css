@@ -30,7 +30,6 @@
   position: absolute;
   width: 600px;
   height: 400px;
-  margin: 0;
   border-radius: 20px;
   visibility: hidden;
   opacity: 0;
@@ -45,13 +44,15 @@ flex-direction: column;
   transition: opacity .2s, visibility .2s;
   background-color: rgb(255, 218, 185);
   z-index: 2; /* Ensure it's above the profile image on hover */
-padding: 20px;
+padding-right: 15px;
+margin-right: 6px;
+
 }
 .eye{
   height: 50px;
   width: 50px;
 border-radius: 10px;
-padding-bottom: 5px;
+padding-bottom: 15px;
 }
 
 .my-proj:hover .proj-description {
@@ -79,6 +80,7 @@ padding-bottom: 5px;
   .proj-description {
     width: 100%;
     height: auto;
+    
   }
   
   .my-proj:hover {
