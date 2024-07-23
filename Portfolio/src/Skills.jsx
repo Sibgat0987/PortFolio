@@ -68,16 +68,16 @@ return(
 
 <div className="tools-container" >
 <div className="tools-box">
-<div className="tools">Linux</div>
-<img src="linux.png"  />
+<div className="tools" >Linux</div>
+<img src="linux.png"   className="github-img"/>
 <div className="tools">Git</div>
-<img src="git.png"  />
+<img src="git.png"  className="github-img" />
 
 <div className="tools">GitHub</div>
 <img className="github-img" src="github.png"  />
 
 <div className="tools">Figma</div>
-<img src="figma.png"  />
+<img src="figma.png"  className="github-img"  />
 
 </div>
 </div>

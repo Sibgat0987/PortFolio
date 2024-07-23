@@ -1,10 +1,14 @@
+
+/* Base Styles */
 p {
   font-size: 20px;
   font-weight: bold;
 }
-#skills{
+
+#skills {
   padding: 40px;
 }
+
 .container {
   border-radius: 20px;
   padding: 0px;
@@ -24,12 +28,12 @@ p {
 
 .html {
   width: 90%;
-  background-color: #04AA6D;
+  background-color: #04aa6d;
 }
 
 .css {
   width: 80%;
-  background-color: #2196F3;
+  background-color: #2196f3;
 }
 
 .js {
@@ -80,23 +84,25 @@ p {
 .skills-container {
   display: flex;
   justify-content: space-between;
-
 }
 
 .frontend-container, .backend-container {
-  width: 50%; 
+  width: 50%;
   align-content: center;
-  padding: 50px;/* Adjust as needed */
+  padding: 50px; /* Adjust as needed */
 }
+
 .tools-container {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 20vh; /* Full height of the viewport to center vertically */
 }
-.tools-heading{
+
+.tools-heading {
   text-align: center;
 }
+
 .tools-box {
   align-items: center;
   box-sizing: border-box;
@@ -105,14 +111,89 @@ p {
   border: none;
   display: flex;
   justify-content: space-between;
-  box-shadow: 3px 4px 5px 6px #A9A9A9;
+  box-shadow: 3px 4px 5px 6px #a9a9a9;
   border-radius: 10px;
-  padding: 20px;
+  padding: 40px;
 }
-.tools{
+
+.tools {
   font-size: 20px;
   font-weight: bold;
 }
-.github-img{
-  height: 40px;
+
+.github-img {
+  height: 30px;
 }
+
+/* Media Queries */
+
+/* For tablets and smaller screens */
+@media (max-width: 768px) {
+  .skills-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .frontend-container, .backend-container {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .tools-box {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .tools-container {
+    height: auto;
+  }
+}
+
+/* For mobile phones */
+@media (max-width: 480px) {
+  p {
+    font-size: 18px;
+  }
+
+  .container {
+    height: 20px;
+    width: 200px;
+  }
+
+  .skills {
+    height: 20px;
+  }
+
+  .frontend-container, .backend-container {
+    padding: 10px;
+  }
+.tools-container{
+ 
+  margin-left: 35px;
+}
+  .tools-box {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .tools {
+    font-size: 18px;
+    margin-bottom: 1px;
+    
+  }
+
+  .github-img {
+    height: 25px;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+}
+

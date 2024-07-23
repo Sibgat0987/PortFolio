@@ -1,50 +1,100 @@
-.education-container{
+/* Base Styles */
+.education-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 10px;
+  grid-gap: 30px;
 }
-.edu{
+
+.edu {
   padding: 40px;
 }
-.nit{
+
+.nit {
   box-sizing: border-box;
-  width: 600px;
-  height: 500px;
+  width: 100%; /* Change to 100% for responsiveness */
+  height: auto; /* Change to auto for responsiveness */
   border: none;
   display: flex;
   flex-direction: column;
-  box-shadow: 3px 4px 5px 6px #A9A9A9;
+  box-shadow: 3px 4px 5px 5px #a9a9a9;
   border-radius: 10px;
   padding: 30px;
 }
-.it-heading{
+
+.it-heading {
   margin-top: 0px;
   font-size: 18px;
   color: #8b8989;
   font-weight: normal;
 }
-.img-heading{
+
+.img-heading {
   display: flex;
-  justify-content: space-between;
+  align-items: center; /* Align items center */
 }
-.nit-img{
+
+.nit-img {
   height: 50px;
   width: 50px;
-  margin-top: 30px;
   margin-right: 20px;
 }
-.para-info{
+
+.para-info {
   font-size: 20px;
   font-weight: normal;
 }
-.school-img{
+
+.school-img {
   height: 60px;
   width: 60px;
-  margin-top: 25px;
+  margin-right: 20px;
 }
-.grade-heading{
+
+.grade-heading {
   margin-top: 20px;
   font-size: 18px;
   color: #8b8989;
   font-weight: normal;
+}
+
+/* Media Queries */
+
+/* For tablets and smaller screens */
+@media (max-width: 768px) {
+  .education-container {
+    grid-template-columns: 1fr; /* Stack the items in one column */
+  }
+
+  .nit {
+    width: 100%; /* Ensure it takes full width */
+    margin: 10px 0; /* Add vertical margin for spacing */
+  }
+}
+
+/* For mobile phones */
+@media (max-width: 480px) {
+  .edu {
+    padding: 20px; /* Reduce padding for smaller screens */
+  }
+.education-container{
+  margin: 20px 10px; /* Add vertical margin for spacing */
+    padding-right: 20px;
+}
+  .nit {
+    padding: 20px; /* Reduce padding for smaller screens */
+  }
+
+  .it-heading, .grade-heading {
+    font-size: 16px; /* Reduce font size for smaller screens */
+  }
+
+  .para-info {
+    font-size: 18px; /* Reduce font size for smaller screens */
+  }
+
+  .nit-img, .school-img {
+    height: 40px; /* Reduce image size for smaller screens */
+    width: 40px; /* Reduce image size for smaller screens */
+  }
 }

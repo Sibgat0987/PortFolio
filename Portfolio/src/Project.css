@@ -16,6 +16,7 @@
   border-radius: 20px;
   padding: 0px;
   position: relative;
+  overflow: hidden;
 }
 
 .proj-profile {
@@ -43,7 +44,8 @@ flex-direction: column;
   /* transition effect. not necessary */
   transition: opacity .2s, visibility .2s;
   background-color: rgb(255, 218, 185);
-  
+  z-index: 2; /* Ensure it's above the profile image on hover */
+
 }
 .eye{
   height: 50px;
@@ -58,4 +60,82 @@ border-radius: 10px;
 
 .my-proj:hover .proj-profile {
   opacity: 0;
+}
+.my-proj:hover {
+  z-index: 3; /* Bring the hovered project to the front */
+}
+@media (max-width: 768px) {
+  .project-grid {
+    grid-template-columns: 1fr; 
+  }
+
+  .my-proj {
+    width: 100%; /* Ensure it takes full width */
+    margin: 20px 10px; /* Add vertical margin for spacing */
+    padding-right: 20px;
+  }
+
+  .proj-description {
+    width: 100%;
+    height: auto;
+  }
+  
+  .my-proj:hover {
+    max-width: 100%; /* Allow full width on smaller screens */
+    overflow-y: auto;
+    overflow-x: auto; 
+    /* Enable vertical scrolling if necessary */
+    overflow: scroll;
+
+  }
+
+  .proj-description:hover {
+    /* Add padding */
+    padding: 20px;
+    /* Adjust max-height to account for padding */
+    max-height: 100vh;
+    overflow-y: auto;
+    overflow-x: auto;
+    word-break: break-word;
+  }
+}
+
+/* For mobile phones */
+@media (max-width: 480px) {
+  .project-container {
+    padding: 10px; /* Reduce padding for smaller screens */
+  }
+
+  .proj-description {
+    padding: 20px; /* Add padding for better readability */
+  }
+
+  .eye {
+    height: 40px; /* Reduce icon size for smaller screens */
+    width: 40px; /* Reduce icon size for smaller screens */
+  }
+
+  .my-proj {
+    width: 350px; /* Ensure it takes full width */
+    margin: 20px 20px; /* Add vertical margin for spacing */
+  }
+
+  .my-proj:hover {
+    max-width: 100%; /* Allow full width on smaller screens */
+    overflow-y: auto;
+    overflow-x: auto; 
+    /* Enable vertical scrolling if necessary */
+    
+
+  }
+
+  .proj-description:hover {
+    /* Add padding */
+    padding: 20px;
+    /* Adjust max-height to account for padding */
+    max-height: 100vh;
+    overflow-y: auto;
+    overflow-x: auto;
+    word-break: break-word;
+  }
 }
