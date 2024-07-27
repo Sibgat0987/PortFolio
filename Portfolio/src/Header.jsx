@@ -4,6 +4,10 @@ import Skills from "./Skills";
 import Project from "./Project";
 import Education from "./Education";
 import Contact from "./Contact";
+/*const [showFileContainer, setShowFileContainer] = useState(false);
+const createFilecontainer=()=>{
+  setShowFileContainer(prev=>!prev)
+}*/
 function Header(){
   const gitHub=()=>{
     window.location.href='https://github.com/Sibgat0987';
@@ -34,6 +38,7 @@ return(
     </div>
     <div className="button-cont">
     <button className="resume-button">Resume</button>
+    <img src="hamburger.jpg" id='hamburger'   />
 
     </div>
   </div>

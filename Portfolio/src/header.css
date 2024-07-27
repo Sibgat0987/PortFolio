@@ -1,4 +1,9 @@
-
+#hamburger {
+  opacity: 0;
+  height: 0;
+  width: 0;
+  display: none;
+}
 .header-container{
   height: 60px;
   color: black;
@@ -10,7 +15,6 @@
   top: 0;
   left: 0;
   right: 0;
-  z-index: 100;
   position: fixed;
   background-color: white;
   border-bottom-width: 1px;
@@ -52,7 +56,8 @@
 margin-top: 22px;
 height: 35px;
 padding-bottom: 0px;
-  background-color:#2F4F4F;
+background-color: #003367;
+
   border-radius: 22px;
   margin-bottom: 20px;
   cursor: pointer;
@@ -103,42 +108,28 @@ padding-bottom: 0px;
 }
 
 @media (max-width: 480px) {
-  .header-container {
-    padding: 5px;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .left-section {
-    padding: 5px;
-    font-size: 18px;
-    text-align: center;
-  }
-
-  .middle-section {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .mid-info {
-    font-size: 15px;
-    margin: 3px;
-  }
-
+  .middle-section,
   .right-section {
-    margin-top: 5px;
-    flex-direction: column;
-    align-items: center;
+    display: none; /* Hide these sections */
   }
-
-  .header-img {
-    height: 25px;
-    margin: 3px;
+  .left-section {
+    text-align: center;
+    padding: 7px;
+    flex: 1;
+    font-size: 20px;
   }
-
-  .resume-button {
-    height: 25px;
-    font-size: 14px;
-    margin-top: 5px;
+  .header-container {
+    justify-content: flex-start;
+    padding: 10px;
   }
+  #hamburger {
+    opacity: 1; /* Make it visible */
+    display: block; /* Ensure it is displayed */
+    height: 30px; /* Adjust height as needed */
+    width: 30px; /* Add width */
+    cursor: pointer; /* Add cursor to indicate it's clickable */
+    margin-right: 10px;
+    background-color: transparent; /* Ensure background is transparent */
+  }
+  
 }
