@@ -20,12 +20,14 @@
     border-radius: 4px;
     font-size: 16px;
     width: 100%;
+    color: #110305;
 }
 .message-input-box{
   height: auto; /* Allow height to adjust based on content */
   min-height: 100px; /* Set a minimum height */
   resize: vertical; /* Allow vertical resizing */
-  overflow: auto; /* Ensure content is scrollable if it exceeds the height */  
+  overflow: auto;
+  color: #110305; 
 }
 .input-box:focus
  {
