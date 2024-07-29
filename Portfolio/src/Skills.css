@@ -1,20 +1,27 @@
 
-/* Base Styles */
 p {
   font-size: 20px;
   font-weight: bold;
 }
-
-#skills {
-  padding: 40px;
+.skills-heading{
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  margin-bottom: 20px;
 }
-
+#skills {
+  padding: 50px;
+}
+.skills-name{
+  margin-top: 5px;
+}
 .container {
   border-radius: 20px;
   padding: 0px;
   height: 20px;
   width: 100%;
   background-color: #ddd;
+  margin-top: 5px;
 }
 
 .skills {
@@ -133,7 +140,9 @@ p {
     flex-direction: column;
     align-items: center;
   }
-
+.skills-name{
+  margin-top: 5px;
+}
   .frontend-container, .backend-container {
     width: 100%;
     padding: 20px;
@@ -155,10 +164,10 @@ p {
 
 /* For mobile phones */
 @media (max-width: 480px) {
-  p {
-    font-size: 18px;
-  }
-
+  
+#skills{
+  padding-top: 70px;
+}
   .container {
     height: 20px;
     width: 200px;
@@ -166,21 +175,23 @@ p {
 
   .skills {
     height: 20px;
+
   }
 
   .frontend-container, .backend-container {
-    padding: 10px;
+    padding: 30px;
+    margin-top: 5px;
   }
-.tools-container{
- 
-  margin-left: 35px;
-}
-  .tools-box {
-    width: 400px;
+  .tools-container {
+    margin-top: 10px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
+    width: 330px;
+    margin-left: -70px;
+      }
+      
+  .tools-box {
     padding: 20px;
   }
 

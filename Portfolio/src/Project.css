@@ -2,7 +2,10 @@
   padding: 50px;
   text-align: center;
 }
-
+.head-proj{
+  padding: 10px;
+  margin-bottom: 20px;
+}
 .project-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -66,5 +69,39 @@
 
   .proj-profile {
     height: auto; /* Allow height to adjust */
+  }
+}
+@media (max-width: 480px) {
+  .project-container {
+    padding: 20px;
+    padding-top: 80px;
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr; /* Single column layout */
+    grid-gap: 20px; /* Reduced gap between projects */
+  }
+
+  .my-proj {
+    max-width: 100%; 
+    margin-bottom: 20px;
+  }
+
+  .proj-description {
+    padding: 10px;
+  }
+
+  .proj-description h2 {
+    font-size: 1.2em; /* Slightly smaller font size */
+  }
+
+  .proj-description p {
+    font-size: 0.9em; /* Slightly smaller font size */
+  }
+
+  .eye {
+    padding: 8px 12px; 
+    font-size: 0.9em;
+    margin-top: 6px;
   }
 }

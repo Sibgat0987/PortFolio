@@ -30,16 +30,16 @@ function Contact() {
   }
 
   return (
-    <div className="contact-container" id='contact'>
-      <h1 className="contact-heading">CONTACT</h1>
-      <form className="contact-box" onSubmit={onSubmit}>
-        <div className="name-email">
-          <input type="text" placeholder="Your name" className="input-box" name='name' required />
-          <input type="email" placeholder="Your email" className="input-box" name='email' required />
+    <div class="contact-container" id='contact'>
+      <h1 class="contact-heading">CONTACT</h1>
+      <form class="contact-box" onSubmit={onSubmit}>
+        <div class="name-email">
+          <input type="text" placeholder="Your name" class="input-box" name='name' required />
+          <input type="email" placeholder="Your email" class="input-box" name='email' required />
         </div>
-        <input type="text" placeholder="Subject" className="input-box" name='subject' required />
-        <textarea placeholder="Message" className="message-input-box" name='message' required></textarea>
-        <button className="message-button" type='submit'>Send Message</button>
+        <input type="text" placeholder="Subject" class="input-box" name='subject' required />
+        <textarea placeholder="Message" class="message-input-box" name='message' required></textarea>
+        <button class="message-button" type='submit'>Send Message</button>
       </form>
     </div>
   );

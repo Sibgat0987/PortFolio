@@ -8,6 +8,7 @@
 
 .edu {
   padding: 40px;
+  padding-top: 80px;
 }
 
 .nit {
@@ -63,7 +64,7 @@
 /* For tablets and smaller screens */
 @media (max-width: 768px) {
   .education-container {
-    grid-template-columns: 1fr; /* Stack the items in one column */
+    grid-template-columns: 1fr;
   }
 
   .nit {
@@ -75,21 +76,26 @@
 /* For mobile phones */
 @media (max-width: 480px) {
   .edu {
-    padding: 20px; /* Reduce padding for smaller screens */
+    padding: 0px; 
+    padding-top: 90px;
   }
-.education-container{
-  margin: 20px 10px; /* Add vertical margin for spacing */
-    padding-right: 20px;
-}
+  .education-container {
+    grid-template-columns: 1fr ;
+    padding: 10px;
+    grid-gap: 30px;
+  }
+
   .nit {
-    padding: 20px; /* Reduce padding for smaller screens */
+    padding: 20px; 
   }
 
   .it-heading, .grade-heading {
-    font-size: 16px; /* Reduce font size for smaller screens */
+    font-size: 16px;
+    margin-top: 10px; /* Reduce font size for smaller screens */
   }
 
   .para-info {
+    margin-top: 25px;
     font-size: 18px; /* Reduce font size for smaller screens */
   }
 

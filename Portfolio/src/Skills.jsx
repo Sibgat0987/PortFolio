@@ -2,61 +2,61 @@ import React from "react";
 function Skills(){
 return(
 <div id="skills"> 
-<h1 className="skills-heading">SKILLS:</h1>
-<div className="skills-container">
+<h1 class="skills-heading">SKILLS:</h1>
+<div class="skills-container">
 <h1>Frontend:</h1>
-<div className="frontend-container">
-<div className="skills-info">
-<p>HTML</p>
+<div class="frontend-container">
+<div class="skills-info">
+<p className="skills-name">HTML</p>
 <div class="container">
   <div class="skills html">90%</div>
 </div>
 
-<p>CSS</p>
+<p className="skills-name">CSS</p>
 <div class="container">
   <div class="skills css">80%</div>
 </div>
 
-<p>JavaScript</p>
+<p className="skills-name">JavaScript</p>
 <div class="container">
   <div class="skills js">65%</div>
 </div>
 
 
-<p>React.JS</p>
+<p className="skills-name">React.JS</p>
 <div class="container">
   <div class="skills ReactJs">80%</div>
 </div>
 </div>
-<p>Tailwind CSS</p>
+<p className="skills-name">Tailwind CSS</p>
 <div class="container">
   <div class="skills tailwindCss">60%</div>
 </div> 
 </div>
 <h1>Backend:</h1>
 
-<div className="backend-container">
-<p>C programming</p>
+<div class="backend-container">
+<p className="skills-name">C programming</p>
 <div class="container">
   <div class="skills c">70%</div>
 </div>
-<p>C++</p>
+<p className="skills-name">C++</p>
 <div class="container">
   <div class="skills Cplus">80%</div>
 </div>
-<p>NodeJs</p>
+<p className="skills-name">NodeJs</p>
 <div class="container">
   <div class="skills nodeJs">90%</div>
 </div>
-<p>Python</p>
+<p className="skills-name">Python</p>
 <div class="container">
   <div class="skills python">70%</div>
 </div>
-<p>MySql</p>
+<p className="skills-name">MySql</p>
 <div class="container">
   <div class="skills MySql">90%</div>
 </div>
-<p>SqlLite</p>
+<p className="skills-name">SqlLite</p>
 <div class="container">
   <div class="skills SqlLite">90%</div>
 </div>
@@ -64,20 +64,20 @@ return(
 
 
 </div>
-<h1 className="tools-heading">Tools:</h1>
+<h1 class="tools-heading">Tools:</h1>
 
-<div className="tools-container" >
-<div className="tools-box">
-<div className="tools" >Linux</div>
-<img src="linux.png"   className="github-img"/>
-<div className="tools">Git</div>
-<img src="git.png"  className="github-img" />
+<div class="tools-container" >
+<div class="tools-box">
+<div class="tools" >Linux</div>
+<img src="linux.png"   class="github-img"/>
+<div class="tools">Git</div>
+<img src="git.png"  class="github-img" />
 
-<div className="tools">GitHub</div>
-<img className="github-img" src="github.png"  />
+<div class="tools">GitHub</div>
+<img class="github-img" src="github.png"  />
 
-<div className="tools">Figma</div>
-<img src="figma.png"  className="github-img"  />
+<div class="tools">Figma</div>
+<img src="figma.png"  class="github-img"  />
 
 </div>
 </div>

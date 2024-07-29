@@ -4,11 +4,14 @@
   align-items: center;
   justify-content: center;
   height: 100%;
+  padding-top: 40px;
 }
 .contact-box{
   width: 600px;
 }
-
+.contact-heading{
+  margin-bottom: 40px;
+}
 .input-box,.message-input-box{
   display: block;
   padding: 20px;
@@ -78,7 +81,9 @@ background-color: #003367;
   .contact-container {
     padding: 10px; 
   }
-
+.contact-heading{
+  margin-bottom: 40px;
+}
   .input-box, .message-input-box {
     padding: 15px; 
     font-size: 14px; 

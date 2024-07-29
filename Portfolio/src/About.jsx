@@ -12,10 +12,10 @@ function About(){
     e.preventDefault();
   }
 return(
-  <div className="cont" id="about">
-    <div className="heading-cont">
-    <h1 className="hello-heading"><span className="span-text">HELLO,</span> I AM SIBGAT</h1>
-    <div className="typewri-heading">
+  <div class="cont" id="about">
+    <div class="heading-cont">
+    <h1 class="hello-heading"><span class="span-text">HELLO,</span> I AM SIBGAT</h1>
+    <div class="typewri-heading">
     <Typewriter
                 onInit={(typewriter) => {
                     typewriter
@@ -31,9 +31,9 @@ return(
     </div>
     
    
- <div className="about-container">
+ <div class="about-container">
   
-    <p className="paragraph-intro">
+    <p class="paragraph-intro">
     Dedicated and innovative B.Tech student majoring in Information Technology at NIT Srinagar,
      deeply passionate about exploring the intersections of technology and human experience.
      With a solid foundation in web development , I am committed to leveraging 
@@ -43,14 +43,14 @@ return(
     </p>
     
   </div>
-  <h1 className="connect-heading">Connect with me</h1>
-  <div className="img-container">
-    <img  className="header-img"  src="github.png" onClick={gitHub} />
-  <img  className="header-img" src="linkedin.png" onClick={linkedIn} />
-  <img className="header-img"  src="gmail.png" onClick={(e)=>gmail(e)} />
+  <h1 class="connect-heading">Connect with me</h1>
+  <div class="img-container">
+    <img  class="header-img"  src="github.png" onClick={gitHub} />
+  <img  class="header-img" src="linkedin.png" onClick={linkedIn} />
+  <img class="header-img"  src="gmail.png" onClick={(e)=>gmail(e)} />
     </div>
-    <div className="btn-wrap">
-    <button className="resume-btn">Check Resume</button>
+    <div class="btn-wrap">
+    <button class="resume-btn">Check Resume</button>
 
     </div>
   </div>

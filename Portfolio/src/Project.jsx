@@ -34,16 +34,16 @@ function Project() {
   ];
 
   return (
-    <div className='project-container' id="project">
-      <h1>MY PROJECTS</h1>
-      <div className='project-grid'>
+    <div class='project-container' id="project">
+      <h1 class="head-proj">MY PROJECTS:</h1>
+      <div class='project-grid'>
         {projects.map((project, index) => (
-          <div className='my-proj' key={index}>
-            <img src={project.image} alt={project.title} className='proj-profile' />
-            <div className='proj-description'>
+          <div class='my-proj' key={index}>
+            <img src={project.image} alt={project.title} class='proj-profile' />
+            <div class='proj-description'>
               <h2>{project.title}</h2>
               <p>{project.description}</p>
-              <button className='eye' onClick={() => navigateTo(project.link)}>View Project</button>
+              <button class='eye' onClick={() => navigateTo(project.link)}>View Project</button>
             </div>
           </div>
         ))}
