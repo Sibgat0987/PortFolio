@@ -273,12 +273,16 @@ margin-right: 15px;
       }
       
       .ml-tools-box {
+      
         margin-top: 10px;
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 320px; 
-        padding: 10px; /* Adjust padding to prevent overflow */
+        width: 350px; 
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 7px;
+        padding-right: 7px;
         overflow: hidden; 
       }
       
@@ -289,7 +293,6 @@ margin-right: 15px;
   .tools {
     font-size: 18px;
     margin-bottom: 1px;
-    
   }
 .Ml-tools{
   font-size: 10px;
@@ -303,7 +306,8 @@ margin-right: 15px;
   .ml-img{
     height: 20px;
     width: 20px;
-   
+    margin-left: 2px;
+    margin-top: 9px;
   }
 }
 
