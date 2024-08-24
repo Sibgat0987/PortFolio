@@ -3,17 +3,25 @@ p {
   font-size: 20px;
   font-weight: bold;
 }
+h1{
+  padding-top: 30px;
+}
 .skills-heading{
   font-size: 20px;
   font-weight: bold;
   padding: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 #skills {
   padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .skills-name{
   margin-top: 5px;
+  font-size: 19px;
 }
 .container {
   border-radius: 20px;
@@ -32,6 +40,7 @@ p {
   padding-bottom: 0px;
   color: white;
 }
+
 
 .html {
   width: 90%;
@@ -87,16 +96,29 @@ p {
   width: 70%;
   background-color: #394d3a;
 }
-
-.skills-container {
+.ExpressJs{
+  width:70%;
+  background-color: #04aa6d;
+}
+.flask{
+  width:60%;
+  background-color: #8d0b84; 
+}
+.mongoDB{
+  width:90%;
+  background-color: #0468aa;
+}
+.skills-container{
   display: flex;
-  justify-content: space-between;
+  justify-content: center; /* Center horizontally */
+  align-items: flex-start; /* Align items at the start vertically */
+  flex-direction: column;
+  margin-left: -200px;
 }
 
 .frontend-container, .backend-container {
-  width: 50%;
-  align-content: center;
-  padding: 50px; /* Adjust as needed */
+width: 250%;
+ 
 }
 
 .tools-container {
@@ -106,14 +128,30 @@ p {
   height: 20vh; /* Full height of the viewport to center vertically */
 }
 
-.tools-heading {
+.tools-heading { 
+  margin-left: 0px;
+  padding-top: 40px;
   text-align: center;
 }
 
 .tools-box {
+  margin-left: 10px;
   align-items: center;
   box-sizing: border-box;
   width: 500px;
+  height: 100px;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 3px 4px 5px 6px #a9a9a9;
+  border-radius: 10px;
+  padding: 40px;
+}
+.ml-tools-box {
+  margin-left: 10px;
+  align-items: center;
+  box-sizing: border-box;
+  width: 800px;
   height: 100px;
   border: none;
   display: flex;
@@ -131,7 +169,16 @@ p {
 .github-img {
   height: 30px;
 }
-
+.Ml-tools{
+font-size: 20px;
+font-weight: bold;
+padding: 10px;
+}
+.ml-img{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
 /* Media Queries */
 
 /* For tablets and smaller screens */
@@ -139,24 +186,50 @@ p {
   .skills-container {
     flex-direction: column;
     align-items: center;
+    margin-left: 0px;
   }
 .skills-name{
   margin-top: 5px;
 }
   .frontend-container, .backend-container {
-    width: 100%;
+    width: 250%;
     padding: 20px;
   }
-
+  .tools-heading { 
+    margin-left: 0px;
+    padding-top: 40px;
+    text-align: center;
+  }
   .tools-box {
+    margin-top: 20px;
     width: 500px;
+    margin-left: -00px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
   }
+  .ml-tools-box {
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    margin-left: 0;
+  }
 
+
+  .ml-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin-bottom: 10px; /* Add some space below the image */
+  }
+
+  .Ml-tools {
+    font-size: 16px;
+    text-align: center; /* Center the text */
+  }
   .tools-container {
     height: auto;
   }
@@ -177,18 +250,36 @@ p {
     height: 20px;
 
   }
-
+.skills-container{
+  margin-left: 0px;
+}
   .frontend-container, .backend-container {
     padding: 30px;
     margin-top: 5px;
+    width: 300px;
   }
-  .tools-container {
+  .tools-container{
+      padding: 10px;
+margin-left: 10px;
+margin-right: 15px;
+  }
+  .tools-box {
     margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 330px;
-    margin-left: -70px;
+    width: 320px;
+    margin-left: 0px;
+      }
+      
+      .ml-tools-box {
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 320px; 
+        padding: 10px; /* Adjust padding to prevent overflow */
+        overflow: hidden; 
       }
       
   .tools-box {
@@ -200,11 +291,19 @@ p {
     margin-bottom: 1px;
     
   }
-
+.Ml-tools{
+  font-size: 10px;
+  padding: 3px;
+}
   .github-img {
     height: 25px;
     margin-left: 4px;
     margin-right: 4px;
+  }
+  .ml-img{
+    height: 20px;
+    width: 20px;
+   
   }
 }
 

@@ -8,28 +8,28 @@ function Project() {
 
   const projects = [
     {
-      title: "PASSWORD GENERATOR",
-      description: "Developed a secure password generator using HTML, CSS, and React, designed to create strong unique passwords to enhance online security. The tool features customizable length and complexity options, incorporating uppercase letters, lowercase letters, numbers, and special characters.",
-      image: "password.jpg",
-      link: "https://github.com/Sibgat0987/PasswordGenerator"
+      title: "MOVIE RECOMMENDER",
+      description: "Built a Movie recommendation system using cosine similarity and vectorization, with a Flask backend and React frontend, providing personalized movie suggestions based on user preferences. The project involved processing and analyzing large movie datasets using Pandas to power the recommendation engine.",
+      image: "movie.jpg",
+      link: "https://github.com/Sibgat0987/MovieRecommender"
     },
     {
-      title: "NOTE TAKING SITE",
-      description: "Developed a note-taking web application aimed at helping users create, manage, and organize their notes efficiently. Utilized HTML, CSS, and JavaScript to build the application, implementing key features such as CRUD functionalities.",
-      image: "notes.jpg",
-      link: "https://github.com/Sibgat0987/NoteTaking"
+      title: " HTTP SERVER",
+      description: " Implemented a basic HTTP server using Winsock for handling client requests over TCP/IP. The server processes GET and POST requests, serving static files and handling form submissions. Built with C, the server efficiently manages network communication and client connections, providing a foundational structure for web server functionality.",
+      image: "server.jpeg",
+      link: "https://github.com/Sibgat0987/HTTP_SERVER"
     },
     {
-      title: "POMODORO TIMER",
-      description: "Developed a Pomodoro timer application using HTML, CSS, and JavaScript to help users manage their time effectively. Implemented a customizable countdown timer, notifications, and productivity tracking.",
-      image: "pomodoro.jpg",
-      link: "https://github.com/Sibgat0987/pomodoro-timer"
+      title: "RESUME BUILDER",
+      description: " Developed a full-stack resume builder with React frontend and Node.js/Express backend. It includes dynamic forms for user data, persistent storage with MongoDB, and PDF generation for resumes. The responsive UI is designed using React and Tailwind CSS.",
+      image: "resume.jpg",
+      link: "https://github.com/Sibgat0987/ResumeBuilder"
     },
     {
-      title: "BLACKJACK GAME",
-      description: "Developed a Blackjack game using HTML, CSS, and JavaScript. Implemented core game mechanics such as card dealing, score calculation, and win/lose conditions.",
-      image: "Blackjack.jpg",
-      link: "https://github.com/Sibgat0987/blackjack-game"
+      title: "MARKDOWN EDITOR",
+      description: " Created a React-based Markdown editor featuring real-time preview with ReactMarkdown. Implemented file management for creating, saving, and deleting files using localStorage, with options to download Markdown content as HTML. Designed a responsive UI for seamless cross-device interaction.",
+      image: "markdown.jpeg",
+      link: "https://github.com/Sibgat0987/MarkDownEditor"
     }
   ];
 
