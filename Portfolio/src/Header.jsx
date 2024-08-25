@@ -15,7 +15,7 @@ function Header() {
   const linkedIn = () => {
     window.location.href = 'https://www.linkedin.com/in/sibgat-farooq-801379256';
   };
-
+ 
   const gmail = (e) => {
     window.location.href = 'mailto:sibgat_2022bite010@nitsri.ac.in';
     e.preventDefault();
@@ -43,7 +43,9 @@ function Header() {
             <img className="header-img" src="gmail.png" onClick={(e) => gmail(e)} />
           </div>
           <div className="button-cont">
-            <button className="resume-button">Resume</button>
+          <a href="/ResumeSibgat.pdf" download>
+      <button className="resume-button">Resume</button>
+    </a>
           </div>
         </div>
         <div className="hamburger-container" onClick={toggleMenu}>

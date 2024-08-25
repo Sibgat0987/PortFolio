@@ -50,8 +50,9 @@ return(
   <img class="header-img"  src="gmail.png" onClick={(e)=>gmail(e)} />
     </div>
     <div class="btn-wrap">
-    <button class="resume-btn">Check Resume</button>
-
+    <a href="/ResumeSibgat.pdf" download>
+      <button className="resume-btn">Check Resume</button>
+    </a>
     </div>
   </div>
  
